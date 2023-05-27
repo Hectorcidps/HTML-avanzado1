@@ -1,0 +1,26 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+table{
+    width: 300px;
+    /*height: 300px;*/
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+#moltres{
+    width: 80px; 
+}
+
+table{
+    border-style: dashed ;
+}

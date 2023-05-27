@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+    <!-- 
+------ Tablas en HTML
+Una tabla es un conjunto de filas, columnas y celdas. 
+
+Celda: es la interseccion entre una fila y una columna que contiene la informacion necesaria.
+
+<td></td> asi definimos las celdas (td=table data) 
+
+"filas" Las filas se definen mediante la etiqueta <tr></tr>
+tr= table row
+
+*** Encabezados de tabla
+Se accede a los encabezados mediante la etiqueta <th>>/th> th= (table heather)
+
+    Para iniciar una table en HTML se usa <table></table> 
+    Se divide en dos partes:
+    --- Cabeza de la tabla <thead>>/thead>
+    --- Cuerpo de la tabla <tbody>>/tbody>
+    -->
+
+    <p>Tabla de personas</p>
+    <hr>
+    <br>
+    <table>
+        <thead>
+            <tr><!-- Fila 1-->
+                <th> Nombre</th>
+                <th>Edad</th>
+                <th>Pais</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr> <!-- fila 2-->
+                <td>Pancho pantera</td>
+                <td>32</td>
+                <td>Ciudad gotica</td>
+            </tr>
+            <tr><!-- Fila 3-->
+                <td>Melvin Choco</td>
+                <td>45</td>
+                <td>Ciudad ilusion</td>
+            </tr>
+            <tr><!-- Fila 4-->
+                <td>Ricky Ricon</td>
+                <td>19</td>
+                <td>Holliwood</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- CRear una tabla donde muestres el nombre, el apellido del 
+        entrenador pokemon y su pokemon base
+
+        Para agregar un titulo a la tabla utilizaremos 
+        <caption> --- insertarla de bajo de la etiqueta tabla
+
+    -->
+    <br>
+    <hr>
+    <table>
+        <caption>Maestros pokemon</caption> 
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Pokemon base</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr> <!-- maestro 1-->
+                <td>Osvaldo</td>
+                <td>Morales</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/totodile" target="_bl
+                    ">Totodile</a></td>
+
+            </tr>
+            <tr> <!-- maestro 2-->
+                <td>Nancy</td>
+                <td>Perez</td>
+                <td>Moltres <br><img id= "moltres" src="/assets/images.jpeg" alt="Moltres"></td>
+
+            </tr>
+            <tr> <!-- maestro 3-->
+                <td>Hiram</td>
+                <td>Navarro</td>
+                <td>Mew</td>
+
+            </tr>
+            <tr> <!-- maestro 4-->
+                <td>Kevin</td>
+                <td>Gonzales</td>
+                <td>Mewtwo</td>
+
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+    <!-- Diseña un horario de clases con 3 horarios de lunes a viernes de 8 -9;
+        de 9 - 10; 10 - 11
+    
+    -->
+
+<br>
+<hr>
+    <table>
+        <caption>Horario de Clases Chidas</caption>
+        <thead>
+            <th></th>
+            <th>08:00 am - 09:00</th>
+            <th>09:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>lunes</td> 
+                <td>Practica supervisada</td>
+                <td> Historia</td>
+                <td>Ingles </td>
+            </tr>
+            <tr>
+                <td>Miercoles</td>
+                <td>Ingles</td>
+                <td>Practica supervisada</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>viernes</td>
+                <td>Historia</td>
+                <td>Ingles</td>
+                <td>Practica supervisada</td>
+                    
+        </tbody>
+
+
+    </table>
+</body>
+</html>
