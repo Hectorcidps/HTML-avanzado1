@@ -2,11 +2,11 @@ table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
-p{
+/*p{
     font-size: 20px;
     margin-bottom: 3px;
     font-weight: bold;
-}
+}*/ 
 
 table{
     width: 300px;
@@ -21,6 +21,28 @@ a{
     width: 80px; 
 }
 
-table{
-    border-style: dashed ;
+#Horario{
+    border-style: double;
+    border-color: blue;
+    background-color: aqua;
+    text-align: center;
+    color: black; 
+
+
+}
+
+#boton1{
+    color: white;
+    background-color: green;
+    font-style: italic;
+    font-weight: bolder;
+    border-style: double;
+}
+#boton2 {
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    background-color: red;
+    border-style: double;
+
 }
